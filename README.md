@@ -16,5 +16,4 @@ All data is containted in the data folder, the description of each file is:
 * **redox_experimental.csv** contains experimental standard redox potentials for a set of 125 biochemical reactions compiled from the [NIST database](https://randr.nist.gov/enzyme/). For sake of completeness it also contains other reaction categories (1 & 4).
 * **redox_GP_rxn.csv** contains predictions for 315k redox reactions. We have the standard redox potential (ORP) using PM7 and calibrated with linear and GP regression.
 
-:fa-coffee:
 ## 
