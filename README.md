@@ -1,6 +1,14 @@
-# gp_redox_rxn
-Repository for doi.org:, 
+# Organic redox potentials from quantum chemsitry/ML with GPs
 
+A mixed quantum chemistry/machine learning approach for the fast and accurate prediction of biochemical redox potentials and its large-scale application to 315,000 redox reactions
+
+Preprint link: <https://doi.org/10.1101/245357>
+
+This repo contains:
+
+*
+*
+*
 
 
 
@@ -16,4 +24,13 @@ All data is containted in the data folder, the description of each file is:
 * **redox_calibration.csv** containts experimental and calculated data (~80 datapoint) for the GP calibration.
 * **redox_results.csv** contains predictions for 315k redox reactions. We have the standard redox potential (ORP) using PM7 and calibrated with linear and GP regression.
 
-## 
+## Sotfware
+
+* python 3
+* rdkit (tested on 2017.03.03)
+* numpy, scipy, seaborn, pandas
+* gpmol (tensorflow, gpflow)
+
+It should be noted that rdkit 2018.09.01 has changes to the rxn code relating to chiralality in smiles, which increases the number of resulting compounds of the rxn generation code.
+
+
