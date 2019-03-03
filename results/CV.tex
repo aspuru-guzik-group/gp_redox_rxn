@@ -1,0 +1,22 @@
+\documentclass{standalone}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{xcolor,colortbl}
+
+\begin{document}
+
+\begin{tabular}{llllrrrrr}
+\toprule
+           &    &          &     &   MAE &  AE ($\sigma$) &  RMSE &    r &  $R^2$ \\
+Task & Set & Target & Approach &       &                &       &      &        \\
+\midrule
+\multirow{4}{*}{Regression} & \multirow{4}{*}{CV} & \multirow{4}{*}{ORP_diff} & GP & 21.93 &          18.84 & 28.92 & 0.68 &   0.45 \\
+           &    &          & KernelRidge & 25.30 &          19.03 & 31.66 & 0.59 &   0.34 \\
+           &    &          & Lasso & 31.18 &          25.21 & 40.10 & 0.20 &  -0.05 \\
+           &    &          & SVR & 29.71 &          25.38 & 39.08 & 0.12 &   0.00 \\
+\bottomrule
+\end{tabular}
+
+
+\end{document}
