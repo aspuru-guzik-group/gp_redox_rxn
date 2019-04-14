@@ -39,3 +39,4 @@ It should be noted that rdkit 2018.09.01 has changes to the rxn code relating to
 
 - [ ] Upload environment.yml
 - [ ] Polish ipython notebook
+- [ ] Upload GP mol.
